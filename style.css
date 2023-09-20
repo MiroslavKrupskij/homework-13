@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a span {
+    display: block;
+}
+span {
+    display: none;
+}
