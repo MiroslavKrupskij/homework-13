@@ -9,6 +9,7 @@
 body {
     margin: 0;
     background-color: rgb(245, 195, 195);
+    font-family: 'Montserrat';
 }
 .link {
     font-size: 30px;
@@ -65,15 +66,19 @@ input::placeholder {
     font-weight: 400;
     line-height: 26px;
     color: #B3B3BA;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
 }
 .title {
     font-size: 38px;
     font-weight: 700;
     color: #F0145A;
     margin-top: 0;
+    background: var(--gradient-red-text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .subtitle {
     color: #B3B3BA;
